@@ -2,6 +2,7 @@
 import React from "react";
 import Delete from "./delete";
 interface data {
+  map(arg0: (item: data) => React.JSX.Element): unknown;
   _id: string;
   id: string;
   name: string;
